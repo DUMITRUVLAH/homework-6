@@ -1,6 +1,11 @@
 package com.company.topic1;
 
 public class Angajat {
+
+    String nume;
+    int varsta;
+    double salariu;
+    String gen;
     public Angajat(String numeAtribuit, int varstaAtribuita, double salariuAtribuit, String genAtribuit) {
         nume = numeAtribuit;
         varsta = varstaAtribuita;
@@ -8,10 +13,7 @@ public class Angajat {
         gen = genAtribuit;
     }
 
-    String nume;
-    int varsta;
-    double salariu;
-    String gen;
+
 
     public void seteazaSalariul() {
         System.out.println(nume + " are un salariu de " + salariu);
